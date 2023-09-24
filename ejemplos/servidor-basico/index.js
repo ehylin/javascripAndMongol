@@ -1,3 +1,5 @@
+'use strict'
+
 //cargar una libreria http
 const http = require('http')
 const Chance = require('chance')
@@ -16,3 +18,6 @@ const servidor = http.createServer(function (request, response) {
 servidor.listen(1337, '127.0.0.1')
 
 console.log('Servidor arrancado http://127.0.0.1:1337')
+
+
+//javascript object notation  JSON

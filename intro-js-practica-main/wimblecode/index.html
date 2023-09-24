@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wimblecode Example</title>
+</head>
+<body>
+  <h2>Abrir terminal del navegador</h2>
+  <script src="match.js" type="module"></script>
+  <script src="tournament.js" type="module"></script>
+  <script type="module">
+    import { tournament } from './tournament.js';
+    const players = ['Alberto C', 'David J', 'Javier M', 'Edu Aguilar'];
+    tournament(players);
+  </script>
+</body>
+</html>
